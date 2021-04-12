@@ -22,7 +22,8 @@ public class UniqueCharacterAscOrder {
 			}
 			
 		}
-		System.out.print(c[i]);
+		if(c[i]!=' '){
+		System.out.print(c[i]);}
 		}
 	}
 
