@@ -14,10 +14,10 @@ public class AllUniqueChar {
 			for (int j = i + 1; j < c.length; j++) {
 				if (c[i] == c[j]) {
 					count = count + 1;
-					c[j] = '0';
+					c[j] = '*';
 				}
 			}
-			if (count == 1 && c[i] != '0') {
+			if (count == 1 && c[i] != '*') {
 				System.out.println("Unique character : "+c[i] + "---->" + count);
 			}
 		}
