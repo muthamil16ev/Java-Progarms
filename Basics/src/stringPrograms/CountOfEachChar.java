@@ -5,6 +5,7 @@ public class CountOfEachChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s = "be intellectually inspiring by ignoring others innocence but not ignorance";
+
 		char c[] = new char[s.length()];
 		for (int i = 0; i < c.length; i++) {
 			c[i] = s.charAt(i);
