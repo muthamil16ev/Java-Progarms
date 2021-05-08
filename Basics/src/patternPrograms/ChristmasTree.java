@@ -1,4 +1,4 @@
-package PatternPrograms;
+package patternPrograms;
 
 public class ChristmasTree {
 
@@ -6,7 +6,7 @@ public class ChristmasTree {
 		// TODO Auto-generated method stub
 		int n = 5;
 		for (int k = 1; k <= 3; k++) {
-			for (int i =2; i <= n; i++) {
+			for (int i =1; i <= n; i++) {
 				for (int j = 1; j <= n - i; j++) {
 					System.out.print(" ");
 				}
