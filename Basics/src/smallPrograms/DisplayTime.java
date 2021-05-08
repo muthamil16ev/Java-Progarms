@@ -1,4 +1,4 @@
-package SmallPro;
+package smallPrograms;
 
 public class DisplayTime {
 
