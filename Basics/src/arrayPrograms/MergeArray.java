@@ -1,4 +1,4 @@
-package ArrayPrograms;
+package arrayPrograms;
 
 public class MergeArray {
 
