@@ -26,6 +26,7 @@ try{
 			linesCount+=1;
 		}
 	}
+	fr.close();
 }catch(IOException e){
 	System.out.println(e);
 }

@@ -6,7 +6,7 @@ public class DoubleForPN {
 		// TODO Auto-generated method stub
 		for (int num = 1; num <= 1000; num++) {
         int counter=0;
-        for(int i=1;i<=num;i++){
+        for(int i=0;i<=num;i++){
         	if(num%i==0){
         		counter+=1;
         	}
